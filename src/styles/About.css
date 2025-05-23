@@ -1,0 +1,43 @@
+.about-title {
+    color: #4A4A4A;
+    font-family: Inter;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.about-bullet-text {
+    color: #424242;
+    text-align: justify;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: circle; /* disc or circle, square, etc. */
+    padding-left: 3rem; /* Adjust for the indentation of bullet points */
+}
+
+.summary-txt {
+    color: #000;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.summary-content {
+    color: #424242;
+    text-align: justify;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+}

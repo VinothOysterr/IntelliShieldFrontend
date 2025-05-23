@@ -1,0 +1,164 @@
+.header-txt {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.addnew-txt-right {
+    width: 100%;
+    text-align: center;
+    /* margin-right: 4%; */
+    font-size: 36px;
+    font-weight: 600;
+    font-family: Inter;
+    color: #4a4a4a;
+    display: inline-block;
+}
+
+.fe-data {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.fe-data-half {
+    min-width: 40%;
+}
+
+.fe-data-txt {
+    font-size: 24px;
+    font-family: Inter;
+    color: rgba(46, 46, 46, 0.96);
+    text-align: left;
+    display: inline-block;
+    white-space: nowrap;
+}
+
+.ver-line {
+    height: 100px;
+    width: 0%;
+    border: 1px rgba(0, 0, 0, 0.5) solid;
+    margin: auto;
+}
+
+.row {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fe-data-container {
+    width: 100%;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: flex-start;
+}
+
+.print-data-container {
+    width: 20%;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.qr-container {
+    width: 100%;
+    height: 100%;
+}
+
+.maintenance-table {
+    width: 100%;
+    border-collapse: collapse;
+    border-top: 1px solid rgba(0, 0, 0, 0.5);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.maintenance-table th,
+.maintenance-table td {
+    border-right: 1px solid rgba(0, 0, 0, 0.5);
+    padding: 8px;
+    text-align: center;
+}
+
+.maintenance-table th:last-child,
+.maintenance-table td:last-child {
+    border-right: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.maintenance-table th:first-child,
+.maintenance-table td:first-child {
+    border-left: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.maintenance-table thead th {
+    background-color: #f2f2f2;
+}
+
+.inner-row {
+    border-top: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.print-data-inner-big-container {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.print-data-inner-container {
+    height: 100%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.filter-date-label-field {
+    width: 100%;
+    height: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.print-label {
+    width: 100%;
+    text-align: left;
+    color: #061B04;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.filter-date-field {
+    width: 80%;
+    height: 32px;
+    border-radius: 2px;
+    border: 0.5px solid rgba(0, 0, 0, 0.80);
+}
+
+.print-btn {
+    border-radius: 2px;
+    background: #FE6E18;
+    border: none;
+    height: 40px;
+}
+
+.print-btn-txt {
+    color: #FCFCFC;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}

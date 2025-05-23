@@ -1,0 +1,42 @@
+.page-container {
+    height: 100vh;
+    width: 100vw;
+}
+
+.container {
+    padding-top: 1.2%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.page-container header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.line {
+    height: 0%; 
+    border: 1px rgba(0, 0, 0, 0.5) solid;
+    margin: auto;
+    margin-top: 17px;
+}
+
+.addnew-txt {
+    width: 100%;
+    
+    text-align: start;
+    font-size: 36px;
+    font-weight: 600;
+    font-family: Inter;
+    color: #4a4a4a;
+    text-align: left;
+    display: inline-block;
+}
+
+.add-new-header {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}

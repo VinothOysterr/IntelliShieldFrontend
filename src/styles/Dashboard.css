@@ -1,0 +1,190 @@
+.page-container {
+    height: 100vh;
+    width: 100vw;
+}
+
+.container {
+    padding-top: 1.2%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.page-container header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.line {
+    height: 0%; 
+    border: 1px black solid;
+    margin: auto;
+    margin-top: 17px;
+}
+
+.addnew-txt {
+    width: 100%;
+    
+    text-align: start;
+    font-size: 36px;
+    font-weight: 600;
+    font-family: Inter;
+    color: #4a4a4a;
+    text-align: left;
+    display: inline-block;
+}
+
+.s {
+    font-size: 64px;
+}
+.hield {
+    font-size: 48px;
+}
+.ntellishield {
+    color: #222;
+    font-size: 48px;
+}
+.intellishield {
+    width: 360px;
+    position: relative;
+    letter-spacing: 0.04em;
+    font-weight: 600;
+    font-family: Signika;
+    text-align: left;
+    display: inline-block;
+    font-size: 64px;
+    color: #ff0000;
+}
+
+/* General styling for the navigation */
+nav {
+    background-color: #333;
+    overflow: hidden;
+}
+
+nav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+/* Hamburger button styling */
+nav button {
+    display: none;
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 14px 20px;
+    cursor: pointer;
+}
+
+/* Style adjustments for smaller screens */
+@media (max-width: 768px) {
+    nav a {
+        display: none;
+    }
+
+    nav button {
+        display: block;
+    }
+
+    /* If the menu is open, we'll display the links */
+    .isOpen a {
+        display: block;
+    }
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table-head {
+    background-color: #3171a3;;
+}
+
+.table-body tr {
+    background-color: rgba(217, 217, 217, 0.2);
+    border-top: 10px solid #ffffff;
+}
+
+.table-body {
+    border-spacing: 0 10px; /* Adjust the value as needed */
+}
+
+.table-head th {
+    padding: 10px;
+    margin: 0; /* Ensure there is no margin */
+    border: none; /* Remove border if any */
+    color: white; /* Adding color for better visibility */
+}
+
+thead {
+    margin: 0; /* Ensure there is no margin */
+    padding: 0; /* Ensure there is no padding */
+}
+
+th {
+    margin: 0; /* Ensure there is no margin */
+    padding: 0; /* Ensure there is no padding */
+    border: none; /* Remove border if any */
+}
+
+.bottom-buttons {
+    display: flex;
+    width: 100%;
+    position: absolute;
+    bottom: 50px;
+    right: 2%;
+    justify-content: flex-end;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 200px;
+    height: 64px;
+    background: #FE6E18;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+    border: 0.30px rgba(0, 0, 0, 0.20) solid;
+    cursor: pointer;
+    margin-left: 48px;
+}
+
+.btn:hover {
+    background: #fc7f37;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 6px;
+    border: 0.30px rgba(0, 0, 0, 0.20) solid;
+}
+
+.btntxt {
+    color: #EDEDEE;
+    font-size: 24px;
+    font-family: Inter;
+    font-weight: 500;
+    word-wrap: break-word;
+}
+
+.create-btn {
+    height: 46px;
+    width: 250px;
+    background: #FE6E18;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+    border: 0.30px rgba(0, 0, 0, 0.20) solid;
+    cursor: pointer;
+    margin-left: 48px;
+}
+
+.create-btn:hover {
+    background: #fc7f37;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 6px;
+    border: 0.30px rgba(0, 0, 0, 0.20) solid;
+}

@@ -1,0 +1,121 @@
+.s {
+    font-size: 92px;
+}
+
+.hield {
+    font-size: 69px;
+}
+
+.ntellishield {
+    color: #222;
+    font-size: 69px;
+}
+
+.intellishield {
+    width: 519px;
+    position: relative;
+    letter-spacing: 0.04em;
+    font-weight: 600;
+    font-family: Signika;
+    text-align: left;
+    display: inline-block;
+    font-size: 92px;
+    color: #ff0000;
+}
+
+.welcome-text {
+    color: rgba(34, 34, 34, 0.80);
+    font-size: 40px;
+    font-family: 'Inter';
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.text-field-container {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+
+.text-field-container label {
+    color: #061B04;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.text-field {
+    height: 64px;
+    min-width: 560px;
+    border: 0.40px rgba(0, 0, 0, 0.80) solid;
+    border-radius: 4px; 
+    color: #222222;
+    font-size: 24px;
+    font-family: Inter;
+    font-weight: 500;
+    word-wrap: break-word;
+}
+
+.login-btn {
+    height: 64px;
+    min-width: 560px;
+    background-color: #FE6E18; 
+    border-radius: 4; 
+    border: 2px rgba(0, 0, 0, 0.05) solid;
+    color: #FCFCFC;
+    font-size: 32px;
+    font-family: Inter;
+    font-weight: 500;
+    word-wrap: break-word;
+}
+
+.login-btn:hover {
+    height: 64px;
+    min-width: 560px;
+    background-color: #ff9456; 
+    border-radius: 4; 
+    border: 2px rgba(0, 0, 0, 0.05) solid;
+    color: #FCFCFC;
+    font-size: 32px;
+    font-family: Inter;
+    font-weight: 500;
+    word-wrap: break-word;
+}
+
+.login-container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-left-container {
+    height: 75%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-evenly;
+}
+
+.login-left-inner-container {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: start;
+}
+
+.login-left-inner-upper-container {
+    height: 30%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    align-items: start;
+}
